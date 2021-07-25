@@ -12,6 +12,7 @@
         <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="sarthakroy2002" revision="eleven" clone-depth="1" />
         <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="sarthakroy2002" revision="eleven" clone-depth="1" />
         <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="sarthakroy2002" revision="eleven" clone-depth="1" />
+        <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="sarthakroy2002" revision="lineage-18.1" clone-depth="1" />
         <remove-project name="platform/external/selinux" />
         <project path="external/selinux" name="android_external_selinux" remote="patch" revision="lineage-18.1" clone-depth="1" />
 
