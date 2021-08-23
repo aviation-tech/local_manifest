@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="sarthakroy2002"
-                fetch="https://github.com/sarthakroy2002" />
-        <remote name="patch"
-                fetch="https://github.com/Los-FE" />
-         <remote name="Realme-G70-Series"
-                fetch="https://github.com/Realme-G70-Series" />
-         <remote name="pixel"
-                fetch="https://github.com/PixelExperience" />        
+        <remote name="aviation-tech"
+                fetch="https://github.com/aviation-tech" />
         
-        <project path="device/realme/RMX2020" name="device_realme_RMX2020" remote="sarthakroy2002" revision="oss" clone-depth="1" />
-        <project path="vendor/realme/RMX2020" name="vendor_realme_RMX2020" remote="sarthakroy2002" revision="11" clone-depth="1" />
-        <project path="kernel/realme/rmx2020" name="kernel_realme_rmx2020" remote="sarthakroy2002" revision="Q" clone-depth="1" />
-        <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="eleven" clone-depth="1" />
-        <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="Realme-G70-Series" revision="eleven" clone-depth="1" />
-        <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="Realme-G70-Series" revision="dumaloo-release" clone-depth="1" />
-        <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="Realme-G70-Series" revision="master" clone-depth="1" />
-        <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Realme-G70-Series" revision="lineage-18.1" clone-depth="1" />
+        <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="aviation-tech" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="aviation-tech" revision="lineage-18.1" clone-depth="1" />
+        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="aviation-tech" revision="lineage-18.1" clone-depth="1" />
 
 </manifest>
