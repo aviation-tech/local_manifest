@@ -5,7 +5,7 @@
                 fetch="https://github.com/aviation-tech" />
         
         <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="aviation-tech" revision="lineage-18.1" clone-depth="1" />
-        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="aviation-tech" revision="lineage-18.1" clone-depth="1" />
-        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="aviation-tech" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/xiaomi/sweet" name="android_vendor_xiaomi_sweet" remote="aviation-tech" revision="lineage-18.1" clone-depth="1" />
+        <project path="kernel/xiaomi/sweet" name="android_kernel_xiaomi_sweet" remote="aviation-tech" revision="lineage-18.1" clone-depth="1" />
 
 </manifest>
